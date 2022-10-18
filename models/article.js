@@ -41,7 +41,7 @@ articleSchema.pre('validate', function(next) {
     this.sanitizedHtml = dompurify.sanitize(marked(this.markdown));
   }
 
-  next()
+  next();
 });
 
 module.exports = mongoose.model('Article', articleSchema);
