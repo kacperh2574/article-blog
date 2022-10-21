@@ -1,2 +1,2 @@
 # article-blog
-Blog for publishing articles.
+A blog for publishing articles written using Markdown syntax.
